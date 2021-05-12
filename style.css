@@ -1,0 +1,164 @@
+body{
+    background-image: url("afcorissa.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding:0;
+    cursor: pointer;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    font-size: 25px;
+    opacity:80%;
+    background-color:black;
+   color:white;
+}
+li{
+   display: inline-block; 
+   margin:20px;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: red;
+   color: white;
+   
+   
+}
+.gallery{
+    margin:20px;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: red;
+   color: white;
+   text-decoration: none;
+}
+.Liveperformance{
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: red;
+   color: white;
+   text-decoration: none;
+}
+.Aboutodisha{
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: red;
+   color: white;
+   text-decoration: none;
+}
+li:hover{
+    background-color: #ecd5b2;
+    height: 5px;
+    border-radius: 50px ;
+    position: relative;
+    top: 5px;
+    
+}
+h1{
+    text-align: center;
+    position:absolute;
+    top: 5px;
+    left: 900px;
+    font-size:40px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: green;
+
+}
+header input{
+    position: absolute;
+    top: 50px;
+    left: 1600px;
+    
+}
+section{
+    margin:0px;
+    position:relative;
+    top:850px;
+    background: #ecd5b2;
+    height:183em;
+}
+section section div{
+    text-align: center;
+    position:absolute;
+    top:-800px;
+    left: 100px;
+    height:20em;
+    width:1700px;
+    
+    border-radius: 19%;
+    
+}
+section div{
+    font-size: 40px;
+    font-family: fantasy;
+}
+section div p{
+    font-size: 20px;
+    font-family: serif;
+    
+}
+
+.table{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50px;
+    margin-left: 600px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    width: 345px;
+    height: 85px
+    
+}
+table, tr,td{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+section button{
+    border-radius: 20px;
+    border-color: green;
+    border-width: 5px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+}
+section button:hover{
+    background-color: red;
+    transition: .6s;
+}
+
+.video-live{
+    border: 2px solid black;
+    border-right-width: 2px;
+    margin-top: 70em;
+}
+.contact-form{
+    margin-top: 3200px;
+    margin-left: 450px;
+    border: 2px solid black;
+    height: 350px;
+    width: 800px;
+    border-radius: 20px;
+    background-color: black;
+    opacity: 90%;
+    color: white;
+
+}
+.name-box {
+    margin-left: 50px;
+    padding-right: 40px;
+}
+.message-box {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 100px;
+}
+.box {
+    margin-left: -5px;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
